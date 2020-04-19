@@ -13,37 +13,37 @@ Coroneus est qui viscere barbariam **seris**. Vim in quamquam colla ventura
 remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
 
 In this dynamic world, where loyal base of customers is depleting, we offer a mix of digital marketing solutions which help our clients to build a brand, acquire customers, and retain them. We design customized solutions to suit each brand’s needs.
-1	Lead generation and affiliates
-2	Mobile strategy
-3	Video
-4	SEM – search engine marketing
-5	SEO- search engine optimization
-6	Data & analytics
-7	Social media management
+1.	Lead generation and affiliates
+2.	Mobile strategy
+3.	Video
+4.	SEM – search engine marketing
+5.	SEO- search engine optimization
+6.	Data & analytics
+7.	Social media management
 
-##Lead generation and affiliates
+## Lead generation and affiliates
 Result oriented marketing, where one can track the leads generated, their source. While generating volumes of leads, we make sure that quality is never compromised.
 
-###Our approach
-a.	Plan- Our experts strategize the plan to achieve desired results, by working with the client and understanding their business goals
-b.	Build – We have extensive tech development capability, which is leveraged to build platform as per your business requirements
-c.	Connecting with the world – We help our clients reach out to the larger masses by creating a network of affiliates
-d.	Check – We analyze the data, and take the input to fine tune our plan, to ensure that leads are converted to revenue
+### Our approach
+-	Plan- Our experts strategize the plan to achieve desired results, by working with the client and understanding their business goals
+-	Build – We have extensive tech development capability, which is leveraged to build platform as per your business requirements
+-	Connecting with the world – We help our clients reach out to the larger masses by creating a network of affiliates
+-	Check – We analyze the data, and take the input to fine tune our plan, to ensure that leads are converted to revenue
 
-### Mobile strategy
+## Mobile strategy
 Number of handset owners have crossed 700 mn mark in India. More people are searching on handheld devices than laptops/computers. We make a plan based on consumer insights from the industry, which can help you reach your audience through their mobile phone.
 
-What we do
-a.	Strategy – We provide you with relevant industry information which can help you create a roadmap for the intended business objective
-b.	Mobile Apps – Having a well built up App helps you gain valuable customer insights when consumers download your App.
-c.	App store / Play store optimization – Among millions of App that are present in store, your App should be discoverable easily by consumers.
-d.	Responsive websites – A customer can open your webpage from mobile phone, tablet, laptop or any other device. A responsive website makes sure that customer experience doesn’t get impacted because of the device
+### What we do
+-	Strategy – We provide you with relevant industry information which can help you create a roadmap for the intended business objective
+-	Mobile Apps – Having a well built up App helps you gain valuable customer insights when consumers download your App.
+-	App store / Play store optimization – Among millions of App that are present in store, your App should be discoverable easily by consumers.
+-	Responsive websites – A customer can open your webpage from mobile phone, tablet, laptop or any other device. A responsive website makes sure that customer experience doesn’t get impacted because of the device
 
 
-### Video
+## Video
 Displaying the video at right time is as important as the content of video. We make sure that your customers watch the video in moment of truth and take the intended actions on the video, which will drive your results.
 
-Our USP
+### Our USP
 a.	Visual story telling – viewers are more likely to remember a video which has a storyline, be it any product description, or promotional advertisement
 b.	Interactive media – when viewers provide inputs to video, their engagement with the content increases and your brand gets a share of their mind space
 c.	Reach – We plan your campaigns to reach customers on all kinds of devices, and gather information which can give you valuable insights
@@ -70,12 +70,12 @@ With time search engine changes the way it ranks pages on internet. Hence SEO is
 a.	Answering the ‘what’: What is your audience typing to find your business? This forms the basis of our keyword research. It can be phrases too. Our experts tell you which keywords match best with your business.
 b.	Analysis of existing web assets: our SEO experts provide you with evaluation of architecture of website, content on each page, global navigation, local navigation, load time for various pages, image search compliance and more. This helps you understand the current quality of your website and uncovers the areas of improvement.  
 
-###Data and analytics
+### Data and analytics
 
 From website visitors to sales conversions, there is enormous amount of data generated and there are umpteen tools to automate the data analysis. 
 More important is to make business decisions with the data in hand and predict future course of action. Media is you helps in correlating consumer insights and industry trends with data in hand and makes the decision-making process easier for you.
 
-###Social media management
+### Social media management
 
 It’s no trade secret that social media is driving business for not only b2c companies, but also for b2b companies. Most of the consumers spends more than 30% of their time on social media. However, channelizing their time from views to spend involves strategizing the flow.
 
