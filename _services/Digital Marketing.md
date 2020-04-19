@@ -35,27 +35,27 @@ Number of handset owners have crossed 700 mn mark in India. More people are sear
 Displaying the video at right time is as important as the content of video. We make sure that your customers watch the video in moment of truth and take the intended actions on the video, which will drive your results.
 
 ### Our USP
-a.	**Visual story telling** – viewers are more likely to remember a video which has a storyline, be it any product description, or promotional advertisement
-b.	**Interactive media** – when viewers provide inputs to video, their engagement with the content increases and your brand gets a share of their mind space
-c.	**Reach** – We plan your campaigns to reach customers on all kinds of devices, and gather information which can give you valuable insights
+- **Visual story telling** – viewers are more likely to remember a video which has a storyline, be it any product description, or promotional advertisement
+- **Interactive media** – when viewers provide inputs to video, their engagement with the content increases and your brand gets a share of their mind space
+- **Reach** – We plan your campaigns to reach customers on all kinds of devices, and gather information which can give you valuable insights
 
 ## Search engine marketing (SEM)
 Our experts keep pace with rapidly changing search engine marketing tactics. We optimize your campaigns, so that you get maximum views within your budget. We work in tandem with other channels, keeping in mind your end customer’s requirements.
 
-Our approach
-a.	Keyword analysis – our SEM experts help you identify the best keywords to suit your business, using our thorough analysis. We also recommend you the ‘negative keywords’ to be excluded from search. This research is based on analyzing commercial intent for the product.
-b.	AB testing – We have an expertise in testing our strategy on SEM with smaller budgets, before going live in market. This helps our clients invest larger part of their budget on right keywords.
-c.	Data driven analytics to arrive at correct bid amount
-d.	Experience – our team members keep working on SEM for clients across industries, which gives us an added advantage.
+**Our approach**
+-	Keyword analysis – our SEM experts help you identify the best keywords to suit your business, using our thorough analysis. We also recommend you the ‘negative keywords’ to be excluded from search. This research is based on analyzing commercial intent for the product.
+-	AB testing – We have an expertise in testing our strategy on SEM with smaller budgets, before going live in market. This helps our clients invest larger part of their budget on right keywords.
+-	Data driven analytics to arrive at correct bid amount
+-	Experience – our team members keep working on SEM for clients across industries, which gives us an added advantage.
 
 ## Search engine optimization
 We use our proven tactics to improve your ranking on search results. This helps in establishing the brand in consumer’s mind while meeting their requirements.
 
-What is SEO
+**What is SEO?**
 When a customer searches for your business on a search engine, you want your website or product to appear on top. Search engine optimization is a process of achieving this. An SEO expert improves the quality of your page, which in turn improves the page ranking on search engine.
 
 
-Why is SEO needed
+**Why is SEO needed?**
 More than half of the leads come through organic search. ‘Organic’ means unpaid marketing. Hence if your business ranks good in ‘natural’ searches made, you will get free of cost acquisition of quality customers.
 With time search engine changes the way it ranks pages on internet. Hence SEO is a completely evolving process. To improve the rankings, we do a number of things which range from designing the website to modifying the content. Some of our services are listed below.
 a.	Answering the ‘what’: What is your audience typing to find your business? This forms the basis of our keyword research. It can be phrases too. Our experts tell you which keywords match best with your business.
@@ -75,7 +75,7 @@ Social media marketing is a complex activity which involves fine tuning the comm
 Our approach: We follow an integrated approach across all the channels of communication and we intertwin client’s social media story into other media. We believe in carrying branding and social media advertising in congruence.
 
 How it works:
-- (a)	Whom to target: Finding out the right set of audience from billions of social media account is the most crucial part. Our experts help you do just that, with the experience they have, across geographies
-- (b)	Why would they come to you: A consumer may come to your page for varied reasons, which include direct incentive, or entertainment, or any other indirect incentives.
-- (c)	How to filter qualified leads: Not all the consumers who have come to your page are actually looking for the products/service offering. Filtering them helps you right size the traffic and do quality sales
-- (d)	Selling the product/service: This is the final step where consumer actually takes a purchase decision. This part needs to be embedded in the journey so well, that consumer drop outs are least
+- **Whom to target**: Finding out the right set of audience from billions of social media account is the most crucial part. Our experts help you do just that, with the experience they have, across geographies
+- **Why would they come to you**: A consumer may come to your page for varied reasons, which include direct incentive, or entertainment, or any other indirect incentives.
+- **How to filter qualified leads**: Not all the consumers who have come to your page are actually looking for the products/service offering. Filtering them helps you right size the traffic and do quality sales
+- **Selling the product/service**: This is the final step where consumer actually takes a purchase decision. This part needs to be embedded in the journey so well, that consumer drop outs are least
