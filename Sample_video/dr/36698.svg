@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg onmouseup="{ if(window.parent.document.onmouseup) window.parent.document.onmouseup(arguments[0]);}"><Code/><Message/><AWSAccessKeyId/><RequestId/><HostId/></svg>
