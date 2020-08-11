@@ -1,37 +1,12 @@
-baseurl: ''
-exclude: ['README.md']
-permalink: pretty
-title: 'Satkaponi Consulting'
+# Site settings
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-collections:
-  services:
-    output: true
-    permalink: /services/:path/
-  team:
-    output: true
-    permalink: /team/:path/
-  testimonials:
-    output: true
-    permalink: /testimonials/:path/
+twitter_username:
+github_username:
 
-defaults:
-  - scope:
-      type: services
-    values:
-      layout: service
-      bodyClass: page-services-single
-  - scope:
-      path: 'images'
-    values:
-      image: true
-
-sass:
-  style: compact # possible values: nested expanded compact compressed
-
-google_analytics_id: null
-
-plugins:
-  - jekyll-environment-variables
-url: "https://satkaponi.com"
-plugins:
-  - jekyll-sitemap
+# Build settings
+markdown: kramdown
