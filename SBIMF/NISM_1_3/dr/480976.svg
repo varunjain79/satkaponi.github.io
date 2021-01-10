@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" onmouseup="{ if(window.parent.document.onmouseup) window.parent.document.onmouseup(arguments[0]);}" width="36" viewBox="0 0 36 36" id="S_Location_18_N_2x" height="36" data-name="S_Location_18_N@2x"><defs><style>
+      .fill {
+        fill: #707070;
+      }
+
+      
+    </style></defs><path data-cppathid="10000" d="M18,1.925a12,12,0,0,0-12,12c0,6.627,12,21.75,12,21.75s12-15.123,12-21.75A12,12,0,0,0,18,1.925ZM18,18.65A4.65,4.65,0,1,1,22.65,14,4.65,4.65,0,0,1,18,18.65Z" class="fill"/></svg>
