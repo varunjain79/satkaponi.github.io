@@ -39,5 +39,7 @@ cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={
 "dr/430757.svg": "img8.json",
 "dr/431149_941_627.png": "img9.json",
 "dr/432069_1023_572.png": "img10.json",
+"dr/435769_53_53.png": "img10.json",
+"dr/435806_53_53.png": "img10.json",
 "dr/loading.gif": "img10.json",
 "___":"___"};
