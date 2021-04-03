@@ -1,22 +1,23 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
+  title: Seller Onboarding
+  subtitle: Making seller onboarding easy for an e-commerce player
   thumbnail: https://place-hold.it/400x300
   
 #what displays when the item is clicked:
-title: Title
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: Seller Onboarding
+subtitle: Making seller onboarding easy for an e-commerce player
 image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---
-Use this area to describe your project. **Markdown** supported.
 
-optional info list (delete if not using):
+A large e-commerce player has a number of sellers who needs to be onboarded to the former’s platform. It involves various processes like scanning the documents, uploading at appropriate places, listing of their items. 
+To help the sellers complete these processes easily, a platform was developed, wherein processes were explained in a detailed, easy-to-understand manner. This was done with the help of interactive videos.
+
+
 
 {:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
+- Client: EBay
+
 
