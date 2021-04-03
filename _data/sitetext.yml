@@ -21,25 +21,25 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "Content"
+        desc: "We create digital stories that help to convey the right information to targeted consumers in most simplified and easy-to-understand manner."
+        icon: fas fa-desktop #find more at https://fontawesome.com/icons
+      - title: "Digital Transformation"
+        desc: "We help you in your digital transformation journey with our expertise in digital products"
+        icon: fas fa-exchage
+      - title: "[Strategy](#)"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Business Application"
+    text: "Some key business application."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: ""
     section: timeline
     # left is the default
     #start_align: "left"
@@ -80,16 +80,17 @@ en: &DEFAULT_EN
     list:
       - title: "Ebay"
         url: https://ebay.com
-        logo: assets/img/clients/envato.jpg
+        logo: https://brandslogos.com/wp-content/uploads/images/large/ebay-logo-black-and-white.png
       - title: "SBI MF"
         url: https://sbimf.com/
-        logo: assets/img/clients/designmodo.jpg
+        logo: https://www.sbimf.com/en-us/SiteAssets/logo.png
       - title: "Churchgate Partners"
         url: https://Churchgatepartners.com
-        logo: assets/img/clients/themeforest.jpg
+        logo: http://churchgatepartners.com/CAC.png
       - title: "Bain"
         url: https://bain.com/
-        logo: assets/img/clients/creative-market.jpg
+        logo: https://banner2.cleanpng.com/20180405/ggq/kisspng-bain-company-management-consulting-business-cons-company-logo-5ac60d4965fa12.0405392315229289694177.jpg
+        #logo: assets/img/clients/creative-market.jpg
 
   team:
     title: "OUR AMAZING TEAM"
