@@ -1,6 +1,6 @@
 ---
 title: Product Pitch
-subtitle: Product Videos for Customers and Channel Partners
+#subtitle: Product Videos for Customers and Channel Partners
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 

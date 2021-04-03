@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Seller Onboarding
-  subtitle: Making seller onboarding easy for an e-commerce player
+ # subtitle: Making seller onboarding easy for an e-commerce player
   thumbnail: https://place-hold.it/400x300
   
 #what displays when the item is clicked:

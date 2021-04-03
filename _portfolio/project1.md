@@ -1,6 +1,6 @@
 ---
 title: Decentralised Training for 1mn+ Distributores
-subtitle: Digitised the learning process for a Leading Mutual Fund
+#subtitle: Digitised the learning process for a Leading Mutual Fund
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 

@@ -1,6 +1,6 @@
 ---
 title: Investor Relations Management
-subtitle: Designed next genration IR platform 
+#subtitle: Designed next genration IR platform 
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
