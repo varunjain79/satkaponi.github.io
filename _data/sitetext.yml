@@ -66,10 +66,10 @@ en: &DEFAULT_EN
         logo: /assets/img/clients/times-internet.png
       - title: "Churchgate Partners"
         url: https://Churchgatepartners.com
-        logo: /assets/img/clients/cgp.png
+        logo: /assets/img/clients/CGP.png
       - title: "Bain"
         url: https://bain.com/
-        logo: /assets/img/clients/bain.png
+        logo: /assets/img/clients/Bain.png
         #logo: assets/img/clients/creative-market.jpg
 
   team:
