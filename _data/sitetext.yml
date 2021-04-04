@@ -32,10 +32,10 @@ en: &DEFAULT_EN
         icon: fas fa-laptop-code
 
   portfolio:
-    title: "Business Application"
-    text: "Some key business application."
+    title: "Case Studies"
+    text: "Some key business Cases."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "About"
