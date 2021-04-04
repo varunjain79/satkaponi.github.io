@@ -212,7 +212,7 @@ es: &DEFAULT_ES
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "NO" #"yes/no"
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
