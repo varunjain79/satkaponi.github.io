@@ -1,12 +1,12 @@
 ---
 title: Customer Support Automation
-#subtitle: Automated Customer support using Bots
+subtitle: Automated Customer support using Bots
 image: /assets/img/portfolio/Bot.png
 alt: Keep Exploring
 
 caption:
   title: Customer Support Automation
-  subtitle:  Automated Customer support using Bots 
+#  subtitle:  Automated Customer support using Bots 
   thumbnail: /assets/img/portfolio/Bot.png
 ---
 An e-commerce player wanted to improve customer experience by providing quick service, and increase the availability, and increase customer satisfaction. Together, we analyzed and formed patterns on the standard response to the queries raised by users.

@@ -1,12 +1,12 @@
 ---
 title: Investor Relations Management
-#subtitle: Designed next genration IR platform 
+subtitle: Designed next genration IR platform 
 image: assets/img/portfolio/IR.png
 alt: Keep Exploring
 
 caption:
   title: Investor Relations Management
-  subtitle: Designed next genration IR platform 
+#  subtitle: Designed next genration IR platform 
   thumbnail: assets/img/portfolio/IR.png
 ---
 An MNC client helps various corporates in maintaining investor relations, by providing accurate information in a timely manner. 
