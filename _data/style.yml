@@ -1,7 +1,7 @@
 #Color Customization
-highlight: "#000035"
-white: "#FF0000"
-black: "#000"
+highlight: "#003366"
+#white: "#FF0000"
+#black: "#000"
 
 #Image Customization
 header-image: "https://png.pngtree.com/thumb_back/fw800/background/20190421/pngtree-business-intelligence-technology-background-image_107833.jpg"
