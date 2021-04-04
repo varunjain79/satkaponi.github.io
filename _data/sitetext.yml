@@ -29,7 +29,7 @@ en: &DEFAULT_EN
         icon: fas fa-chess-queen
       - title: "Tech"
         desc: "We offer our tech expertise in Web/App/Game Development, DevOps, UI/UX Design and emerging tech"
-        icon: fab fa-laptop-code
+        icon: fas fa-laptop-code
 
   portfolio:
     title: "Business Application"
