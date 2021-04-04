@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Seller Onboarding
-  subtitle: Making seller onboarding easy for an e-commerce player
+#  subtitle: Making seller onboarding easy for an e-commerce player
   thumbnail: /assets/img/portfolio/Ebay.png
   
 #what displays when the item is clicked:
 title: Seller Onboarding
-# subtitle: Making seller onboarding easy for an e-commerce player
+ subtitle: Making seller onboarding easy for an e-commerce player
 image: /assets/img/portfolio/Ebay.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 

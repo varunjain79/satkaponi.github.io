@@ -37,28 +37,7 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
-  timeline:
-    title: "About"
-    text: ""
-    section: timeline
-    # left is the default
-    #start_align: "left"
- 
-
-  about:
-    title: "About Us"
-    text: "our story"
-    section: about
-    list:
-      - title: "Ebay"
-        url: https://ebay.com
-        logo: /assets/img/clients/ebay.png
-      - title: "SBI MF"
-        url: https://sbimf.com/
-        logo: /assets/img/clients/SBIMF.png
-  
-
-  clients:
+   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "no" #"yes/no"
