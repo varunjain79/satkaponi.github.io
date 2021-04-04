@@ -61,7 +61,7 @@ en: &DEFAULT_EN
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "yes" #"yes/no"
+    horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "Ebay"
         url: https://ebay.com
