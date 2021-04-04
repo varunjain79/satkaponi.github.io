@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Welcome to our Satkaponi!
-    text: It's Nice To Meet You
+    text: 
     button: Tell Me More
     buttonlink: "#services"
 
@@ -24,12 +24,12 @@ en: &DEFAULT_EN
       - title: "Content"
         desc: "We create digital stories that help to convey the right information to targeted consumers in most simplified and easy-to-understand manner."
         icon: fas fa-desktop #find more at https://fontawesome.com/icons
-      - title: "Digital Transformation"
+      - title: "Digital Strategy"
         desc: "We help you in your digital transformation journey with our expertise in digital products"
-        icon: fas fa-exchage
-      - title: "[Strategy](#)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fas fa-chess-queen
+      - title: "Tech"
+        desc: "We offer our tech expertise in Web/App/Game Development, DevOps, UI/UX Design and emerging tech"
+        icon: fab fa-code
 
   portfolio:
     title: "Business Application"
@@ -57,16 +57,19 @@ en: &DEFAULT_EN
     list:
       - title: "Ebay"
         url: https://ebay.com
-        logo: https://brandslogos.com/wp-content/uploads/images/large/ebay-logo-black-and-white.png
+        logo: /assets/img/clients/ebay.png
       - title: "SBI MF"
         url: https://sbimf.com/
-        logo: https://www.sbimf.com/en-us/SiteAssets/logo.png
+        logo: /assets/img/clients/SBIMF.png
+      - title: "Times Internet"
+        url: https://timesinternet.com
+        logo: /assets/img/clients/times-internet.png
       - title: "Churchgate Partners"
         url: https://Churchgatepartners.com
-        logo: http://churchgatepartners.com/CAC.png
+        logo: /assets/img/clients/cgp.png
       - title: "Bain"
         url: https://bain.com/
-        logo: https://banner2.cleanpng.com/20180405/ggq/kisspng-bain-company-management-consulting-business-cons-company-logo-5ac60d4965fa12.0405392315229289694177.jpg
+        logo: /assets/img/clients/bain.png
         #logo: assets/img/clients/creative-market.jpg
 
   team:
