@@ -57,11 +57,11 @@ en: &DEFAULT_EN
         url: https://sbimf.com/
         logo: /assets/img/clients/SBIMF.png
   
-  
+
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "yes" #"yes/no"
     list:
       - title: "Ebay"
         url: https://ebay.com
