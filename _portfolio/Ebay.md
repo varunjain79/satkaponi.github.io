@@ -1,7 +1,8 @@
 ---
-caption: #what displays in the portfolio grid:
+#what displays in the portfolio grid:
+caption: 
   title: Seller Onboarding
-#  subtitle: Making seller onboarding easy for an e-commerce player
+  subtitle: Making seller onboarding easy for an e-commerce player
   thumbnail: /assets/img/portfolio/Ebay.png
   
 #what displays when the item is clicked:
