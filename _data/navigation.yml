@@ -15,8 +15,8 @@ en: &DEFAULT_EN
       section: services
     - title: "Case Studies"
       section: portfolio
-    - title: "About"
-      section: timeline
+  #  - title: "About"
+   #   section: timeline
     - title: "Team"
       section: team
     - title: "Contact"
