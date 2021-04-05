@@ -1,16 +1,16 @@
 ---
+#what displays when the item is clicked:
+title: Seller Onboarding
+subtitle: Making seller onboarding easy for an e-commerce player
+image: /assets/img/portfolio/Ebay.png #main image, can be a link or a file in assets/img/portfolio
+alt: image alt text
+
 #what displays in the portfolio grid:
 caption: 
   title: Seller Onboarding
   subtitle: Making seller onboarding easy for an e-commerce player
   thumbnail: /assets/img/portfolio/Ebay.png
   
-#what displays when the item is clicked:
-title: Seller Onboarding
- subtitle: Making seller onboarding easy for an e-commerce player
-image: /assets/img/portfolio/Ebay.png #main image, can be a link or a file in assets/img/portfolio
-alt: image alt text
-
 ---
 
 A large e-commerce player has a number of sellers who needs to be onboarded to the former’s platform. It involves various processes like scanning the documents, uploading at appropriate places, listing of their items. 
