@@ -1,10 +1,10 @@
 #Color Customization
 highlight: "#003366"
 #white: "#FF0000"
-#black: "#000"
+black: "#060606"
 
 #Image Customization
-header-image: "https://png.pngtree.com/thumb_back/fw800/background/20190421/pngtree-business-intelligence-technology-background-image_107833.jpg"
+header-image: "https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-dark-wall-background-material-image_279996.jpg"
 contact-image: "../img/contact.png"
 
 #Font Awesome icon for portfolio grid when an item is hovered over
