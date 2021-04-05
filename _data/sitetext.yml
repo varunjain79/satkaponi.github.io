@@ -37,6 +37,20 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
+
+ about:
+    title: "Our Skills"
+    text: "Competencies"
+    section: Our Skills 
+    
+    "
+    '>:;
+    ;
+    ;gl
+    g'
+    
+    "
+  
   Clients:
     section: clients
     max-height: 100px

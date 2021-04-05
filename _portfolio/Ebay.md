@@ -8,7 +8,7 @@ alt: image alt text
 #what displays in the portfolio grid:
 caption: 
   title: Seller Onboarding
-  subtitle: Making seller onboarding easy for an e-commerce player
+ # subtitle: Making seller onboarding easy for an e-commerce player
   thumbnail: /assets/img/portfolio/Ebay.png
   
 ---
@@ -20,5 +20,3 @@ To help the sellers complete these processes easily, a platform was developed, w
 
 {:.list-inline} 
 - Client: EBay
-
-
