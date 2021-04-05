@@ -37,7 +37,7 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
-   clients:
+  Clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "no" #"yes/no"
