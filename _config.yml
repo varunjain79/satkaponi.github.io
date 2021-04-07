@@ -16,13 +16,13 @@ theme: jekyll-agency
 url    : "http://satkaponi.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : Satkaponi Consulting
-email      : mail@satkaponi.com #this is also the email contact forms will go to
+title      : "Satkaponi Consulting"
+email      : "mail@satkaponi.com" #this is also the email contact forms will go to
 description: "Creating digital stories"
-author     : Megha Jain
-logo: #optional, defaults to site title
-  path: assets/img/Satkaponi.png
-  height: 60 #height in px, defaults to 52px
+author     : "Megha Jain"
+logo:  #optional, defaults to site title
+  path: "/assets/img/Satkaponi.png"
+  height: "60" #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
