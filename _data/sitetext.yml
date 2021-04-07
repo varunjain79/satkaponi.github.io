@@ -6,8 +6,7 @@
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
-
-en: &DEFAULT_ES
+en: &DEFAULT_EN
   header:
     title: Welcome to our Satkaponi!
     text: 
@@ -36,7 +35,7 @@ en: &DEFAULT_ES
     closebutton: "Close"
 
 
- about:
+  about:
     title: "Our Skills"
     text: "Competencies"
     section: Our Skills 
