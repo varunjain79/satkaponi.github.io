@@ -6,6 +6,7 @@
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
 en: &DEFAULT_EN
   header:
     title: Welcome to our Satkaponi!
