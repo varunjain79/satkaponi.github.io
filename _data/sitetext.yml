@@ -42,15 +42,7 @@ en: &DEFAULT_EN
     title: "Our Skills"
     text: "Competencies"
     section: Our Skills 
-    
-    "
-    '>:;
-    ;
-    ;gl
-    g'
-    
-    "
-  
+      
   Clients:
     section: clients
     max-height: 100px
