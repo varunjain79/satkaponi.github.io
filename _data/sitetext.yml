@@ -44,7 +44,7 @@ en: &DEFAULT_EN
   Clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "yes" #"yes/no"
+    horizontal-scrolling: ""
     list:
       - title: "Ebay"
         url: https://ebay.com
@@ -61,8 +61,7 @@ en: &DEFAULT_EN
       - title: "Bain"
         url: https://bain.com/
         logo: /assets/img/clients/Bain.png
-        
-
+  
   team:
     title: "OUR AMAZING TEAM"
     text: "Meet our amazing team."
