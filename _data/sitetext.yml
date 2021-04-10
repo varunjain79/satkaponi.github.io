@@ -44,23 +44,23 @@ en: &DEFAULT_EN
   Clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: ""
+    horizontal-scrolling: "No"
     list:
       - title: "Ebay"
-        url: https://ebay.com
-        logo: /assets/img/clients/ebay.png
+        url: "https://ebay.com"
+        logo: "/assets/img/clients/ebay.png"
       - title: "SBI MF"
-        url: https://sbimf.com/
-        logo: /assets/img/clients/SBIMF.png
+        url: "https://sbimf.com/"
+        logo: "/assets/img/clients/SBIMF.png"
       - title: "Times Internet"
-        url: https://timesinternet.com
-        logo: /assets/img/clients/times-internet.png
+        url: "https://timesinternet.com"
+        logo: "/assets/img/clients/times-internet.png"
       - title: "Churchgate Partners"
-        url: https://Churchgatepartners.com
-        logo: /assets/img/clients/CGP.png
+        url: "https://Churchgatepartners.com"
+        logo: "/assets/img/clients/CGP.png"
       - title: "Bain"
-        url: https://bain.com/
-        logo: /assets/img/clients/Bain.png
+        url: "https://bain.com/"
+        logo: "/assets/img/clients/Bain.png"
   
   team:
     title: "OUR AMAZING TEAM"
