@@ -1,11 +1,11 @@
 ---
-title: Decentralised Training for 1mn+ Distributores
+title: Decentralised Training for 1mn+ Distributors
 subtitle: Digitised the learning process for a Leading Mutual Fund
 image: /assets/img/portfolio/Training.png
 alt: Shirts on a hanger
 
 caption: 
-  title: Decentralised Training for 1mn+ Distributores
+  title: Decentralised Training for 1mn+ Distributors
 #  subtitle:  Digitised the learning process for a Leading Mutual Fund
   thumbnail: /assets/img/portfolio/Training.png
 ---

@@ -4,23 +4,23 @@ en:
     horizontal-scrolling: ""
     list: 
       - 
-        logo: /assets/img/clients/ebay.png
+        logo: "/assets/img/clients/ebay.png"
         title: Ebay
         url: "https://ebay.com"
       - 
-        logo: /assets/img/clients/SBIMF.png
+        logo: "/assets/img/clients/SBIMF.png"
         title: "SBI MF"
         url: "https://sbimf.com/"
       - 
-        logo: /assets/img/clients/times-internet.png
+        logo: "/assets/img/clients/times-internet.png"
         title: "Times Internet"
         url: "https://timesinternet.com"
       - 
-        logo: /assets/img/clients/CGP.png
+        logo: "/assets/img/clients/CGP.png"
         title: "Churchgate Partners"
         url: "https://Churchgatepartners.com"
       - 
-        logo: /assets/img/clients/Bain.png
+        logo: "/assets/img/clients/Bain.png"
         title: Bain
         url: "https://bain.com/"
     max-height: 100px
@@ -350,7 +350,7 @@ en-CA:
             icon: "fab fa-linkedin-in"
             url: "https://www.linkedin.com/in/vineet-majoka-50588a19/"
     section: team
-    subtext: "We boast a strong team which specialises in Products, Design, Developments, Strategy and winning hearts."
+    subtext: "We boast a strong team which specialises in Products, Design, Development, Strategy and winning hearts."
     text: "Meet our amazing team."
     title: "OUR AMAZING TEAM"
 en-GB: 
