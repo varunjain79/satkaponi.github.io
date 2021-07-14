@@ -1,0 +1,12 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><script type="text/javascript">
+var timeInSecs ;
+var animover;
+</script>
+
+
+
+<script type="text/javascript" src="libs/easeljs-0.7.1.min.js"></script>
+<script type="text/javascript" src="libs/timer.js"></script>
+
+
+<canvas id="canvas" width="400" height="261" ></canvas><script type="text/javascript" src="scripts/timer_use.js"></script></BODY></HTML>
