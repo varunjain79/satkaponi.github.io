@@ -1,0 +1,16 @@
+cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={ 
+"dr/SubTitle_AutoShape_1.png": "img1.json",
+"dr/Title_AutoShape_1.png": "img1.json",
+"dr/loading.gif": "img1.json",
+"dr/si8263.png": "img1.json",
+"dr/si8270.png": "img1.json",
+"dr/si8285.png": "img1.json",
+"dr/si8289.png": "img1.json",
+"dr/si8296.png": "img1.json",
+"dr/si8300.png": "img1.json",
+"dr/si8317.png": "img1.json",
+"dr/si8334.png": "img1.json",
+"dr/si8347.png": "img1.json",
+"dr/si8366.png": "img1.json",
+"dr/si8370.png": "img1.json",
+"___":"___"};
