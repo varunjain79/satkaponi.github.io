@@ -18,12 +18,12 @@
 }
 .playbarBackGround
 {
-	height:30px;
+	height:45px;
 }
 .playbarSmallButton
 {
-	width:22px;
-	height:22px;
+	width:51px;
+	height:36px;
 	float:left;
 	display:inline;
 	-moz-user-select: none; 
@@ -34,8 +34,8 @@
 .playbarSmallButton:hover {cursor:pointer;} 
 .playbarBigButton
 {
-	width:44px;
-	height:22px;
+	width:80px;
+	height:36px;
 	float:left;
 	display:inline;
 	-moz-user-select: none; 
@@ -46,7 +46,7 @@
 .playbarBigButton:hover {cursor:pointer;} 
 .playbarSlider
 {
-	width:58px;
+	width:60px;
 	float:left;
 	display:inline;
 	-moz-user-select: none; 
@@ -57,6 +57,6 @@
 .playbarSliderThumb
 {
 	position : absolute;
-	top : 6px;
+	top : 9px;
 }
 .playbarSliderThumb:hover {cursor:pointer;}
