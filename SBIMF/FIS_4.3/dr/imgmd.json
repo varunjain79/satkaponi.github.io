@@ -13,5 +13,8 @@ cp.imagesJSONCacheForLocal=true;cp.imageToJSONPathMap={
 "dr/408256_290_290.png": "img3.json",
 "dr/408628_290_290.png": "img3.json",
 "dr/409020_409_290.png": "img3.json",
+"dr/410165_300_290.png": "img3.json",
+"dr/410637_352_290.png": "img3.json",
+"dr/411114_409_290.png": "img3.json",
 "dr/loading.gif": "img3.json",
 "___":"___"};
