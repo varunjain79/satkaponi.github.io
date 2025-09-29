@@ -1,39 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Satkaponi Consulting Private Limited</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="We create digital stories and intelligent tech solutions." />
+  <meta name="keywords" content="Satkaponi, digital, e-learning, apps, chatbots, UX" />
 
   <!-- Favicons -->
-  <link href="/favicon.png" rel="icon">
-  <link href="/favicon-32x32.png" rel="apple-touch-icon">
+  <link href="/favicon.png" rel="icon" />
+  <link href="/favicon-32x32.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files (keep your existing) -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Base Template CSS -->
+  <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- =======================================================
-  * Template Name: Hidayah - v4.3.0
-  * Template URL: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Enhancements: Modern UI + Animations -->
+  <style>
+    :root{
+      --bg:#0b1020;
+      --bg-alt:#0e1430;
+      --card:#121a38;
+      --text:#e6ecff;
+      --muted:#aab3d1;
+      --primary:#6c8cff;
+      --primary-2:#a06bff;
+      --accent:#2ee6a6;
+      --glass: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.08);
+      --shadow: 0 10px 30px rgba(0,0,0,0.3);
+      --radius: 20px;
+    }
+    html,body{height:100%}
+    body{
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #1b2345 0%, transparent 60%),
+        radial-gradient(800px 400px at 90% -10%, #1b1f35 0%, transparent 60%),
+        linear-gradient(180deg, var(--bg) 0%, #0a0f1c 100%);
+      color:var(--text);
+      overflow-x:hidden;
+    }
+    /* ---------- Header (glassy) ---------- */
+    #header{
+      background: linear-gradient( to bottom, rgba(10,16,32,.85), rgba(10,16,32,.35) );
+      backdrop-filter: saturate(140%) blur(10px);
+      border-bottom:1px solid var(--border);
+      transition: background .3s ease, box-shadow .3s ease;
+    }
+    #header.scrolled{
+      background: rgba(10,16,32,.9);
+      box-shadow: 0 8px 32px rgba(0,0,0,.35);
+    }
+    .navbar a{
+      position:relative;
+      font-weight:600;
+      letter-spacing:.2px;
+    }
+    .navbar a::after{
+      content:"";
+      position:absolute;
+      left:0; bottom:-8px;
+      width:0; height:2px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+      transition:width .25s ease;
+      border-radius:2px;
+    }
+    .navbar a:hover::after, .navbar .active::after{width:100%}
+
+    /* ---------- Hero with parallax + Ken Burns ---------- */
+    #hero{position:relative}
+    #hero .carousel-item{
+      min-height: 88vh;
+      background-size: cover;
+      background-position: center;
+      isolation:isolate;
+    }
+    #hero .carousel-item::before{
+      content:"";
+      position:absolute; inset:0;
+      background: radial-gradient(100% 100% at 50% 30%, rgba(12,18,40,.25) 0%, rgba(12,18,40,.75) 70%, rgba(12,18,40,.95) 100%);
+      z-index:1;
+    }
+    #hero .carousel-container{
+      position:relative; z-index:2;
+      padding-top: 22vh;
+      text-align:center;
+    }
+    #hero h2{
+      font-family:Poppins, Inter, sans-serif;
+      font-weight:800;
+      font-size: clamp(32px, 5vw, 54px);
+      line-height:1.05;
+      letter-spacing:.3px;
+      background: linear-gradient(90deg, #fff, #cdd9ff);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+      filter: drop-shadow(0 6px 18px rgba(0,0,0,.35));
+    }
+    #hero h2 span{
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    #hero p{
+      max-width: 820px;
+      margin: 18px auto 28px;
+      color: var(--muted);
+      font-size: clamp(16px, 2.2vw, 20px);
+    }
+    .btn-get-started{
+      display:inline-flex; align-items:center; gap:10px;
+      padding: 12px 22px; border-radius: 999px;
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+      color:#fff; font-weight:700; letter-spacing:.3px;
+      box-shadow: 0 10px 30px rgba(108,140,255,.35);
+      border:0;
+      transition: transform .18s ease, box-shadow .18s ease;
+      position:relative; overflow:hidden;
+    }
+    .btn-get-started:hover{transform: translateY(-2px); box-shadow: 0 16px 40px rgba(108,140,255,.45)}
+    .btn-get-started::after{
+      content:""; position:absolute; inset:0; background: radial-gradient(600px 100px at var(--x,50%) var(--y,50%), rgba(255,255,255,.18), transparent 40%);
+      opacity:0; transition:opacity .2s;
+    }
+    .btn-get-started:active{transform: translateY(0)}
+    .btn-get-started.ripple::after{opacity:1}
+
+    /* Hero Ken Burns */
+    .carousel-item .kenburns{
+      position:absolute; inset:0; background-size:115% 115%; background-position:center;
+      transform: scale(1.06);
+      animation: ken 14s ease-in-out infinite alternate;
+    }
+    @keyframes ken { 0%{transform:scale(1.06)} 100%{transform:scale(1.16)} }
+
+    /* Parallax on scroll */
+    [data-parallax]{transform: translateY(calc(var(--parallax,0) * 1px)); will-change: transform;}
+
+    /* ---------- Sections + Cards ---------- */
+    section{padding: 80px 0}
+    .section-bg{background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0) 60%)}
+    .section-title h2{
+      text-transform:uppercase; letter-spacing: 4px; opacity:.8; font-weight:700;
+      background: linear-gradient(90deg, #9eb0ff, #e2d9ff); -webkit-background-clip:text; background-clip:text; color:transparent;
+      margin-bottom:6px;
+    }
+    .section-title h3{
+      font-family:Poppins, Inter, sans-serif; font-weight:800; letter-spacing:.3px;
+    }
+    .section-title h3 span{
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .icon-box, .member, .portfolio-wrap, .testimonial-item{
+      background: linear-gradient(180deg, var(--glass), rgba(255,255,255,0.03));
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    }
+    .icon-box:hover, .member:hover, .portfolio-wrap:hover, .testimonial-item:hover{
+      transform: translateY(-6px);
+      border-color: rgba(108,140,255,.35);
+      box-shadow: 0 14px 40px rgba(0,0,0,.45);
+    }
+    .icon-box .icon{
+      width:56px; height:56px; display:grid; place-items:center; border-radius:14px;
+      background: linear-gradient(135deg, rgba(108,140,255,.18), rgba(160,107,255,.18));
+      margin-bottom:14px; font-size:24px;
+    }
+    .icon-box .title{font-weight:700}
+    .icon-box .description{color:var(--muted)}
+
+    /* Portfolio */
+    #portfolio-flters li{
+      background: transparent; color:var(--muted); border:1px solid var(--border); padding:10px 16px; border-radius:999px; cursor:pointer;
+      transition: all .2s ease; user-select:none;
+    }
+    #portfolio-flters li:hover{color:#fff; border-color: rgba(108,140,255,.5)}
+    #portfolio-flters .filter-active{ color:#fff; background: linear-gradient(90deg, var(--primary), var(--primary-2)); border-color:transparent }
+    .portfolio-wrap img{transition: transform .4s ease, filter .4s ease}
+    .portfolio-wrap:hover img{transform: scale(1.06); filter:saturate(1.05)}
+    .portfolio-info{background:linear-gradient(180deg, rgba(11,16,32,0), rgba(11,16,32,.9));}
+
+    /* CTA */
+    .cta{
+      background:
+        radial-gradient(1000px 400px at 50% -10%, rgba(108,140,255,.20), transparent 60%),
+        radial-gradient(1000px 400px at 10% 110%, rgba(46,230,166,.16), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.03));
+      border-top:1px solid var(--border); border-bottom:1px solid var(--border);
+    }
+    .cta .cta-btn{
+      border-radius: 12px; padding:12px 18px; border:1px solid rgba(108,140,255,.45);
+      background: linear-gradient(180deg, rgba(108,140,255,.18), rgba(160,107,255,.18));
+      color:#fff; font-weight:700; letter-spacing:.3px; box-shadow: var(--shadow);
+      transition: transform .18s ease, box-shadow .18s ease;
+      display:inline-block;
+    }
+    .cta .cta-btn:hover{transform: translateY(-3px); box-shadow: 0 16px 44px rgba(108,140,255,.35)}
+
+    /* Testimonials / Clients */
+    .testimonial-item{
+      display:flex; gap:16px; align-items:flex-start; padding:24px;
+    }
+    .testimonial-item .testimonial-img{
+      width:64px; height:64px; object-fit:contain; background:#fff; border-radius:12px; padding:8px;
+    }
+    .testimonial-item h3 a{color:#fff; text-decoration:none}
+    .testimonial-item h4{color:var(--muted); font-weight:600}
+
+    /* Team */
+    .member{ text-align:center }
+    .member img{ aspect-ratio: 1/1; object-fit:cover }
+    .member .member-info{ background:linear-gradient(180deg, transparent, rgba(0,0,0,.6)); }
+
+    /* Contact */
+    .contact .info, .php-email-form{
+      background: linear-gradient(180deg, var(--glass), rgba(255,255,255,0.03));
+      border:1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow);
+    }
+    .php-email-form input, .php-email-form textarea{
+      background:#0e1631; border:1px solid rgba(255,255,255,.08); color:#e9eeff; border-radius:12px;
+    }
+    .php-email-form button{
+      background: linear-gradient(90deg, var(--primary), var(--primary-2)); border:0; border-radius:12px; padding:12px 18px; font-weight:700;
+    }
+
+    /* Footer */
+    #footer{
+      background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+      border-top:1px solid var(--border);
+    }
+    #footer .footer-top{padding-top:40px}
+
+    /* Back to top progress ring */
+    .back-to-top{
+      width:46px; height:46px; border-radius:50%;
+      background: radial-gradient(100% 100% at 50% 0%, rgba(108,140,255,.25), rgba(160,107,255,.15));
+      border:1px solid var(--border);
+      box-shadow: var(--shadow);
+      position: fixed; right:16px; bottom:16px;
+    }
+    .back-to-top svg{position:absolute; inset:0}
+
+    /* Reveal on scroll */
+    .reveal{opacity:0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease;}
+    .reveal.is-visible{opacity:1; transform:none}
+
+    /* Mobile tweaks */
+    @media (max-width: 991px){
+      #hero .carousel-container{padding-top: 18vh}
+      .icon-box, .member, .portfolio-wrap, .testimonial-item{border-radius:16px}
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none !important; transition:none !important}
+    }
+  </style>
 </head>
 
 <body>
@@ -41,88 +277,63 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
-
-   <!--   <h1 class="logo"><a href="index.html">Satkaponi</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Satkaponi" class="img-fluid"></a>
+      <a href="#hero" class="logo d-inline-flex align-items-center gap-2">
+        <img src="assets/img/logo.png" alt="Satkaponi" class="img-fluid" style="height:36px" />
+      </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About us</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">Case Studies</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Case Studies</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-      <!--    <li class="dropdown"><a href="#"><span>Industry applications</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Company website</a></li>
-              <li class="dropdown"><a href="#"><span>Interactive content</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Product video</a></li>
-                  <li><a href="#">Social media short video format content</a></li>
-                  <li><a href="#">e-learning content</a></li>
-                  <li><a href="#">Corporate training videos</a></li>
-                  <li><a href="#">Channel partner onboarding content</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Mobile Games</a></li>
-              <li><a href="#">Product recommendation engine</a></li>
-              <li class="dropdown"><a href="#"><span>Automation</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Customer service automation</a></li>
-                  <li><a href="#">Automated bill generation</a></li>
-                  <li><a href="#">Dashboard creation automation</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Easy purchase process through messenger</a></li>
-              <li><a href="#">Mobile application for business</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Hero ======= -->
   <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
+    <div id="heroCarousel" data-bs-interval="6000" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)" data-parallax>
+          <div class="kenburns" style="background-image:url(assets/img/slide/slide-1.jpg)"></div>
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animated fadeInDown">Welcome to <span>Satkaponi</span></h2>
-              <p class="animated fadeInUp">We believe in setting things in order</p>
-              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+              <h2 class="reveal">Welcome to <span>Satkaponi</span></h2>
+              <p class="reveal">We believe in setting things in order.</p>
+              <a href="#about" class="btn-get-started reveal scrollto">Read More <i class="bi bi-arrow-right-short"></i></a>
             </div>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)" data-parallax>
+          <div class="kenburns" style="background-image:url(assets/img/slide/slide-2.jpg)"></div>
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animated fadeInDown">Developing e-learning solutions</h2>
-              <p class="animated fadeInUp">Read our case studies to know how we are devleloping e-learning content which gives better experience than offline learning for coporate learners</p>
-              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+              <h2 class="reveal">Developing e-learning solutions</h2>
+              <p class="reveal">Interactive content that rivals the best offline experiences for corporate learners.</p>
+              <a href="#portfolio" class="btn-get-started reveal scrollto">See Case Studies</a>
             </div>
           </div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)" data-parallax>
+          <div class="kenburns" style="background-image:url(assets/img/slide/slide-3.jpg)"></div>
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animated fadeInDown">Creating Tech solutions using cutting edge technology</h2>
-              <p class="animated fadeInUp">We make use of latest technology to develop tech solutions that fulfuil your business needs and create value for end customer</p>
-              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+              <h2 class="reveal">Cutting-edge technology</h2>
+              <p class="reveal">We use modern stacks to deliver real business value for your customers.</p>
+              <a href="#services" class="btn-get-started reveal scrollto">Our Services</a>
             </div>
           </div>
         </div>
@@ -135,219 +346,142 @@
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
-
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= About ======= -->
+    <section id="about" class="about section-bg">
       <div class="container-fluid">
-
-        <div class="row justify-content-center">
-         
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-         <!--   <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
+        <div class="row justify-content-center align-items-center g-4">
+          <div class="col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch position-relative">
+            <!-- space for video or illustrative image if needed -->
+            <div class="reveal w-100 h-100 d-flex align-items-center justify-content-center">
+              <img src="assets/img/illustrations/story.svg" alt="" class="img-fluid" style="max-height:360px; opacity:.95; filter: drop-shadow(0 12px 30px rgba(0,0,0,.4))" />
+            </div>
           </div>
-        
-          <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Creating Digital stories</h3>
-            <p>We create digital stories that help to convey the right information to targeted consumers in most simplified and easy-to-understand manner.</p>
+          <div class="col-xl-5 col-lg-6 d-flex flex-column justify-content-center py-4 px-lg-5">
+            <h3 class="reveal">Creating Digital stories</h3>
+            <p class="reveal">We create digital stories that deliver the right message to the right audience—simply and powerfully.</p>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Simplicity</a></h4>
-              <p class="description">Simple, yet powerful designs</p>
+            <div class="icon-box p-4 mt-3 reveal">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <div>
+                  <h4 class="title mb-1">Simplicity</h4>
+                  <p class="description mb-0">Simple, yet powerful designs.</p>
+                </div>
+              </div>
             </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Consumer insights</a></h4>
-              <p class="description">Taking into account consumer insights to create solutions which are suited for end customers</p>
+            <div class="icon-box p-4 mt-3 reveal">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <div>
+                  <h4 class="title mb-1">Consumer insights</h4>
+                  <p class="description mb-0">Solutions shaped by real user behavior.</p>
+                </div>
+              </div>
             </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Research and study</a></h4>
-              <p class="description">We undertake secondary research to know the subject matter in detail, to ensure the solution meets business expectations</p>
+            <div class="icon-box p-4 mt-3 reveal">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <div>
+                  <h4 class="title mb-1">Research-driven</h4>
+                  <p class="description mb-0">Deep secondary research to meet business expectations.</p>
+                </div>
+              </div>
             </div>
 
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Skills Section ======= -->
-    <!--<section id="skills" class="skills">
-      <div class="container-fluid">
-
-        <div class="row justify-content-center skills-content">
-
-          <div class="col-xl-5 col-lg-6">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-xl-5 col-lg-6">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section> End Skills Section -->
-  -->
-
-    <!-- ======= Counts Section ======= 
-    <section id="counts" class="counts section-bg">
-      <div class="container-fluid">
-
-        <div class="row counters">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Sectors</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section> End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Services ======= -->
     <section id="services" class="services">
       <div class="container-fluid">
-
-        <div class="section-title">
+        <div class="section-title text-center">
           <h2>Services</h2>
           <h3><span>Our offerings</span></h3>
-          <p>We develop intelligent solutions for your business</p>
+          <p class="text-muted">We develop intelligent solutions for your business</p>
         </div>
 
         <div class="row justify-content-center">
           <div class="col-xl-10">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 icon-box">
-                <div class="icon"><i class="ri-pie-chart-line"></i></div>
-                <h4 class="title"><a href="">Website development</a></h4>
-                <p class="description">We develop the website that conveys your brand story</p>
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6">
+                <div class="icon-box p-4 reveal h-100">
+                  <div class="icon"><i class="ri-pie-chart-line"></i></div>
+                  <h4 class="title"><a href="#">Website development</a></h4>
+                  <p class="description">Websites that tell your brand story clearly.</p>
+                </div>
               </div>
-              <div class="col-lg-4 col-md-6 icon-box">
-                <div class="icon"><i class="ri-stack-line"></i></div>
-                <h4 class="title"><a href="">Mobile application development</a></h4>
-                <p class="description">Provide ease of purchase and services to your customers through best in class mobile application</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="icon-box p-4 reveal h-100">
+                  <div class="icon"><i class="ri-stack-line"></i></div>
+                  <h4 class="title"><a href="#">Mobile apps</a></h4>
+                  <p class="description">Frictionless purchase and service flows on mobile.</p>
+                </div>
               </div>
-              <div class="col-lg-4 col-md-6 icon-box">
-                <div class="icon"><i class="ri-markup-line"></i></div>
-                <h4 class="title"><a href="">e-learning content development</a></h4>
-                <p class="description">Delve into interactive e-learning which helps users apply concepts in real world examples</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="icon-box p-4 reveal h-100">
+                  <div class="icon"><i class="ri-markup-line"></i></div>
+                  <h4 class="title"><a href="#">e-learning</a></h4>
+                  <p class="description">Interactive modules that drive real-world application.</p>
+                </div>
               </div>
-              <div class="col-lg-4 col-md-6 icon-box">
-                <div class="icon"><i class="ri-shape-line"></i></div>
-                <h4 class="title"><a href="">Chatbots</a></h4>
-                <p class="description">Automate customer interactions through an AI powered chatbot</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="icon-box p-4 reveal h-100">
+                  <div class="icon"><i class="ri-shape-line"></i></div>
+                  <h4 class="title"><a href="#">Chatbots</a></h4>
+                  <p class="description">Automated, on-brand customer conversations.</p>
+                </div>
               </div>
-              <div class="col-lg-4 col-md-6 icon-box">
-                <div class="icon"><i class="ri-fingerprint-line"></i></div>
-                <h4 class="title"><a href="">Product videos</a></h4>
-                <p class="description">A video increases the brand recall many more times compared to the plain description</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="icon-box p-4 reveal h-100">
+                  <div class="icon"><i class="ri-fingerprint-line"></i></div>
+                  <h4 class="title"><a href="#">Product videos</a></h4>
+                  <p class="description">Stories that boost recall and conversion.</p>
+                </div>
               </div>
-              <div class="col-lg-4 col-md-6 icon-box">
-                <div class="icon"><i class="ri-body-scan-line"></i></div>
-                <h4 class="title"><a href="">User experience design</a></h4>
-                <p class="description">We design intelligent designs to hide complexity and make experience smooth for your customers</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="icon-box p-4 reveal h-100">
+                  <div class="icon"><i class="ri-body-scan-line"></i></div>
+                  <h4 class="title"><a href="#">UX design</a></h4>
+                  <p class="description">Hide complexity. Surface value.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>
 
-    <!-- ======= Cta Section ======= -->
+    <!-- ======= CTA ======= -->
     <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="text-center">
-          <h3>Discuss with us</h3>
-          <p> Do you have a project? Come, chat with us!</p>
-          <a class="cta-btn" href="https://api.whatsapp.com/send?phone=917045159459">Talk to us</a>
-        </div>
-
+      <div class="container text-center reveal">
+        <h3>Discuss with us</h3>
+        <p>Do you have a project? Come, chat with us!</p>
+        <a class="cta-btn" href="https://api.whatsapp.com/send?phone=917045159459">Talk to us</a>
       </div>
-    </section><!-- End Cta Section -->
+    </section>
 
-    <!-- ======= Case studies Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Portfolio / Case Studies ======= -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container-fluid">
-
-        <div class="section-title">
+        <div class="section-title text-center">
           <h2>Case studies</h2>
           <h3>Some of our <span>Work</span></h3>
-          <p>Read how we have led successful tech implementations for some industry players</p>
+          <p>Read how we led successful implementations</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
+            <ul id="portfolio-flters" class="d-flex gap-2 flex-wrap">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">e-learning</li>
               <li data-filter=".filter-card">Technology solutions</li>
@@ -357,11 +491,11 @@
         </div>
 
         <div class="row portfolio-container justify-content-center">
-
           <div class="col-xl-10">
-            <div class="row">
+            <div class="row g-4">
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+              <!-- keep your existing items; just wrapped with reveal class -->
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Mobile_App_1.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
@@ -373,9 +507,9 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End Case studies item -->
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Website_1.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
@@ -387,9 +521,9 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End portfolio item -->
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Videos_1.png" class="img-fluid" alt="">
                   <div class="portfolio-info">
@@ -401,9 +535,9 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End portfolio item -->
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Videos_2.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
@@ -415,9 +549,9 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End portfolio item -->
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Elearning_1.png" class="img-fluid" alt="">
                   <div class="portfolio-info">
@@ -425,17 +559,17 @@
                     <p>e-learning</p>
                     <div class="portfolio-links">
                       <a href="assets/img/portfolio/ELearning_1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                      <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                   </div>
                 </div>
-              </div><!-- End portfolio item -->
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Chatbot_1.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Automate response to customer querries</h4>
+                    <h4>Automate responses</h4>
                     <p>Chatbot</p>
                     <div class="portfolio-links">
                       <a href="assets/img/portfolio/Chatbot_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
@@ -443,258 +577,192 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End portfolio item -->
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card reveal">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/Mobile_App_2.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Sales enablement App</h4>
-                    <p>Mobile application development</p>
+                    <p>Mobile application</p>
                     <div class="portfolio-links">
                       <a href="assets/img/portfolio/Mobile_App_2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
                       <a href="Sales_Enablement_App.html" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                   </div>
                 </div>
-              </div><!-- End portfolio item -->
+              </div>
 
-           <!---  <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Card 3</h4>
-                    <p>Card</p>
-                    <div class="portfolio-links">
-                      <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-              End portfolio item --> 
+            </div>
+          </div>
 
-           <!---   <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <div class="portfolio-links">
-                      <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                    </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Clients / Testimonials ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container-fluid">
+        <div class="section-title text-center">
+          <h2>Our clients</h2>
+          <h3>People who <span>trusted us</span> with work</h3>
+          <p>We’re humbled to work with industry leaders</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row g-4">
+              <div class="col-lg-6 reveal">
+                <div class="testimonial-item p-3">
+                  <img src="assets/img/testimonials/ebay.png" class="testimonial-img" alt="eBay logo">
+                  <div>
+                    <h3><a href="https://www.ebay.com" target="_blank" rel="noopener">eBay</a></h3>
+                    <h4>Internet</h4>
+                    <p>An American multinational e-commerce corporation based in San Jose, California.</p>
                   </div>
                 </div>
               </div>
-              End portfolio item -->
 
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Case studies Section -->
-
-    <!-- ======= Clients Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container-fluid">
-
-        <div class="section-title">
-          <h2>Our clients</h2>
-          <h3>People who<span> trusted us</span> with work</h3>
-          <p>We are humbled to work with some of the industry leaders and pioneers in technology adoption</p>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-
-            <div class="row">
-
-              <div class="col-lg-6">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/ebay.png" class="testimonial-img" alt="">
-                  <h3><a href="www.ebay.com">eBay</a></h3>
-                  <h4>Internet</h4>
-                  <p>
-                    
-                    An American multinational e-commerce corporation based in San Jose, California, that facilitates consumer-to-consumer and business-to-consumer sales through its website
-                    
-                  </p>
+              <div class="col-lg-6 reveal">
+                <div class="testimonial-item p-3">
+                  <img src="assets/img/testimonials/Churchgate.png" class="testimonial-img" alt="Churchgate logo">
+                  <div>
+                    <h3><a href="https://churchgatepartners.com/" target="_blank" rel="noopener">Churchgate Partners</a></h3>
+                    <h4>Financial Services</h4>
+                    <p>International IR advisor helping corporates design investor programs.</p>
+                  </div>
                 </div>
-              </div><!-- End testimonial-item -->
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4 mt-lg-0">
-                  <img src="assets/img/testimonials/Churchgate.png" class="testimonial-img" alt="">
-                  <h3><a href="https://churchgatepartners.com/">Churchgate Partners</a></h3>
-                  <h4>Financial Services</h4>
-                  <p>
-                    
-                    An international investor relations advisor that works closely with its corporate clients in designing and implementing investor relations programs to meet their specific requirements.
-                   
-                  </p>
+              <div class="col-lg-6 reveal">
+                <div class="testimonial-item p-3">
+                  <img src="assets/img/testimonials/SBIMF.png" class="testimonial-img" alt="SBI MF logo">
+                  <div>
+                    <h3><a href="https://www.sbimf.com" target="_blank" rel="noopener">SBI Mutual Fund</a></h3>
+                    <h4>Financial Services</h4>
+                    <p>Largest mutual fund in India.</p>
+                  </div>
                 </div>
-              </div><!-- End testimonial-item -->
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4">
-                  <img src="assets/img/testimonials/SBIMF.png" class="testimonial-img" alt="">
-                  <h3><a href="www.sbimf.com">SBI Mutual Fund</a></h3>
-                  <h4>Financial Services</h4>
-                  <p>
-                    
-                    Largest Mutual Fund in india with AUM of ~4 Lac Crores.
-                   
-                  </p>
+              <div class="col-lg-6 reveal">
+                <div class="testimonial-item p-3">
+                  <img src="assets/img/testimonials/MensXP.jpg" class="testimonial-img" alt="MensXP logo">
+                  <div>
+                    <h3><a href="https://www.mensxp.com" target="_blank" rel="noopener">MensXP</a></h3>
+                    <h4>Media</h4>
+                    <p>India’s largest men’s lifestyle brand with strong digital reach.</p>
+                  </div>
                 </div>
-              </div><!-- End testimonial-item -->
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4">
-                  <img src="assets/img/testimonials/MensXP.jpg" class="testimonial-img" alt="">
-                  <h3><a href="www.mensxp.com">MensXP</a></h3>
-                  <h4>Media</h4>
-                  <p>
-                    
-                    MensXP is India’s largest online men's lifestyle brand with over 15 million monthly active users on site and an average monthly reach of 45 million on its social media assets. 
-                    
-                  </p>
+              <div class="col-lg-6 reveal">
+                <div class="testimonial-item p-3">
+                  <img src="http://rayganfinvest.com/apple-touch-icon.png" class="testimonial-img" alt="Raygan icon">
+                  <div>
+                    <h3>Raygan Finvest</h3>
+                    <h4>Management consulting</h4>
+                    <p>Management consulting & executive coaching.</p>
+                  </div>
                 </div>
-              </div><!-- End testimonial-item -->
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4">
-                  <img src="http://rayganfinvest.com/apple-touch-icon.png" class="testimonial-img" alt="">
-                  <h3>Raygan Finvest</h3>
-                  <h4>Management consulting</h4>
-                  <p>
-                    
-                    Management consultant & Executive coach
-                   
-                  </p>
+              <div class="col-lg-6 reveal">
+                <div class="testimonial-item p-3">
+                  <img src="assets/img/testimonials/ML.png" class="testimonial-img" alt="Multiliving logo">
+                  <div>
+                    <h3>Multiliving</h3>
+                    <h4>Consumer Tech</h4>
+                    <p>Tech-enabled platform to maximize your home’s worth and lifestyle.</p>
+                  </div>
                 </div>
-              </div><!-- End testimonial-item -->
+              </div>
 
-              <div class="col-lg-6">
-                <div class="testimonial-item mt-4">
-                  <img src="assets/img/testimonials/ML.png" class="testimonial-img" alt="">
-                  <h3>Multiliving</h3>
-                  <h4>Consumer Tech</h4>
-                  <p>
-                   
-                  MultiLiving is a tech-enabled platform that offers a complete array of solutions that help you maximize the worth of your Home and enhance the quality of your lifestyle              
-                  </p>
-                </div>
-              </div> 
-              <!--End testimonial-item -->
-
-            </div>
+            </div> <!-- row -->
           </div>
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!-- ======= Team ======= -->
+    <section id="team" class="team section-bg">
       <div class="container-fluid">
-
-        <div class="section-title">
+        <div class="section-title text-center">
           <h2>Team</h2>
           <h3>Our Hard Working <span>Team</span></h3>
-          <p>We are a group of individuals passionate towards solving problems through technology based solutions</p>
+          <p>Passionate problem-solvers using technology to create value</p>
         </div>
 
         <div class="row justify-content-center">
           <div class="col-xl-10">
-            <div class="row">
-
-              <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="row g-4">
+              <div class="col-xl-4 col-lg-4 col-md-6 reveal">
                 <div class="member">
-                  <img src="assets/img/team/Megha.png" class="img-fluid" alt="">
+                  <img src="assets/img/team/Megha.png" class="img-fluid" alt="Megha">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Megha</h4>
                       <span>Cofounder</span>
                     </div>
                     <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                   </div>
                 </div>
-              </div> <!-- End Member Item -->
+              </div>
 
-              <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.1s">
+              <div class="col-xl-4 col-lg-4 col-md-6 reveal">
                 <div class="member">
-                  <img src="assets/img/team/Varun.png" class="img-fluid" alt="">
+                  <img src="assets/img/team/Varun.png" class="img-fluid" alt="Varun">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Varun</h4>
                       <span>Cofounder</span>
                     </div>
                     <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                   </div>
                 </div>
-              </div> <!-- End Member Item -->
+              </div>
 
-              <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.2s">
+              <div class="col-xl-4 col-lg-4 col-md-6 reveal">
                 <div class="member">
-                  <img src="assets/img/team/Vineet.png" class="img-fluid" alt="">
+                  <img src="assets/img/team/Vineet.png" class="img-fluid" alt="Vineet">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Vineet</h4>
                       <span>Creative head</span>
                     </div>
                     <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                   </div>
                 </div>
-              </div> <!-- End Member Item 
+              </div>
 
-              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
-                <div class="member">
-                  <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>RK</h4>
-                      <span>Chief Executive Officer</span>
-                    </div>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- End Member Item -->
-
-            </div>
+            </div> <!-- row -->
           </div>
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <!-- ======= Contact ======= -->
+    <section id="contact" class="contact">
       <div class="container-fluid">
-
-        <div class="section-title">
+        <div class="section-title text-center">
           <h2>Contact</h2>
           <h3>Get In Touch With <span>Us</span></h3>
           <p>Please fill in your details, so that our team can reach out to you</p>
@@ -702,39 +770,34 @@
 
         <div class="row justify-content-center">
           <div class="col-xl-10">
-            <div class="row">
-
+            <div class="row g-4">
               <div class="col-lg-6">
-
-                <div class="row justify-content-center">
-
-                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <div class="row g-4">
+                  <div class="col-md-6 info p-4 reveal">
                     <i class="bx bx-map"></i>
                     <h4>Address</h4>
-                    <p>Goregaon east,<br>Mumbai, 400063</p>
+                    <p>Goregaon East,<br>Mumbai, 400063</p>
                   </div>
-                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <div class="col-md-6 info p-4 reveal">
                     <i class="bx bx-phone"></i>
                     <h4>Call Us</h4>
                     <p>+91 9833125513<br>+91 2249616248</p>
                   </div>
-                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <div class="col-md-6 info p-4 reveal">
                     <i class="bx bx-envelope"></i>
                     <h4>Email Us</h4>
                     <p>contact@satkaponi.com<br>info@satkaponi.com</p>
                   </div>
-                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <div class="col-md-6 info p-4 reveal">
                     <i class="bx bx-time-five"></i>
                     <h4>Working Hours</h4>
                     <p>Mon - Fri: 9AM to 8PM<br>Saturday: 9AM to 4PM</p>
                   </div>
-
                 </div>
-
               </div>
 
               <div class="col-lg-6">
-                <form action="https://formspree.io/f/xdoyoayk" method="post" role="form" class="php-email-form">
+                <form action="https://formspree.io/f/xdoyoayk" method="post" role="form" class="php-email-form p-4 reveal">
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <label for="name">Your Name</label>
@@ -758,7 +821,7 @@
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
+                  <div class="text-end"><button type="submit">Send Message</button></div>
                 </form>
               </div>
 
@@ -767,41 +830,23 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-   <!--- <div class="footer-newsletter">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h4>Our partners</h4>
-            <p>We collaborate with Media is You</p>
-          </div>
-          <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="footer-top">
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-xl-10">
-            <div class="row">
-
+            <div class="row g-4">
               <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#hero" class="scrollto">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#about" class="scrollto">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#services" class="scrollto">Services</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                 </ul>
@@ -821,18 +866,17 @@
               <div class="col-lg-3 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
-                  Goregaon east<br>
-                  Mumbai 400063<br>
-                  India<br><br>
-                  <strong>Phone:</strong> +91 7045159459<br>
-                  <strong>Email:</strong> info@satkaponi.com<br>
+                  Goregaon East<br />
+                  Mumbai 400063<br />
+                  India<br /><br />
+                  <strong>Phone:</strong> +91 7045159459<br />
+                  <strong>Email:</strong> info@satkaponi.com<br />
                 </p>
-
               </div>
 
               <div class="col-lg-3 col-md-6 footer-info">
                 <h3>About Satkaponi</h3>
-                <p>We are a Digital company, which helps client in their Digital transformation journey. We believe in finding creative solutions to the real world problems, through the use of technological innovations.</p>
+                <p>We help clients in their digital transformation journey—solving real problems with creative technological innovation.</p>
                 <div class="social-links mt-3">
                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                   <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -842,41 +886,13 @@
                 </div>
               </div>
 
-            </div>
+            </div> <!-- row -->
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container py-3">
       <div class="copyright">
-        &copy; Copyright <strong><span>Satkaponi</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/ -->
-        Designed by <a href="https://satkaponi.com/">Satkaponi Consulting</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+        &copy; <span id="year"></span> <strong><span>Satkaponi</span></strong>. All Rights Reserved
+      </div
